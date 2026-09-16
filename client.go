@@ -49,7 +49,7 @@ func main() {
 			return
 		}
 		// El mensaje enviado se muestra con la misma estructura que los recibidos.
-		fmt.Printf("[%s]: \"%s\"\n", usuario, texto)
+		fmt.Printf("[%s]: \"%s\"\n", "Tú", texto)
 	}
 }
 
