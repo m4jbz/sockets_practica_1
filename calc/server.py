@@ -8,7 +8,7 @@ clients      = {}
 clients_lock = threading.Lock()
 
 server       = socket.create_server(addr)
-print(f'Connected to: {addr}')
+print(f'Listening on: {addr}')
 
 def handle_client(conn, addr):
     try:

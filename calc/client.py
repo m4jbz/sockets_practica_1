@@ -29,7 +29,7 @@ output = Text(root, font=("Arial", 24), background="lightgray")
 output.grid(row=1, column=0, sticky="ew")
 
 # Net vars
-ip, port    = '127.0.0.1', 8000
+ip, port    = '127.0.0.1', 8080
 addr        = (ip, port)
 output_text = ""
 
